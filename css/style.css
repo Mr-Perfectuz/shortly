@@ -1,3 +1,36 @@
+/* Custom Props */
+@font-face {
+     font-family: 'Poppins';
+     src: url('/fonts/Poppins-Bold.woff2') format('woff2'),
+         url('/fonts/Poppins-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+ }
+
+ @font-face {
+     font-family: 'Poppins';
+     src: url('/fonts/Poppins-Medium.woff2') format('woff2'),
+         url('/fonts/Poppins-Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+     font-display: swap;
+ }
+
+
+:root{
+     --white-color: #fff;
+     --black-color: #34313D;
+     --deep-violet:#3A3054;
+     --violet: #4B3F6B;
+     --light-black: #9E9AA8;
+     --statistics-bg:  #F2F2F2;
+     --light-blue: #2BD0D0;
+     --font-family: "Poppins", "Arial", sans-serif;;
+
+}
+
+
 /* Global  */
 
 html{
@@ -19,11 +52,11 @@ body{
      display: flex;
      font-size: 16px;
      line-height: 1.5 ;
-     font-family: "Arial", sans-serif;
+     font-family: var(--font-family);
      flex-direction: column;
      height: 100%;
-     background-color: #fff;
-     color: #222;
+     background-color: var(--statistics-bg);
+     color: var(--black-color);
 }
 
 img{
@@ -44,4 +77,79 @@ img{
 /* Main content  */
 .main-content{
      flex-grow: 1;
+}
+
+.main-section {
+}
+.container {
+}
+.header-section {
+}
+.logo-link {
+}
+.logo-img {
+}
+.header-navbar {
+}
+.navbar-list {
+}
+.navbar-link {
+}
+.header-content-wrapper {
+}
+.header-content {
+}
+.header-heading {
+}
+.header-text {
+}
+.get-started-btn {
+}
+.hero-bg-img {
+}
+.shorten-it {
+}
+.form-section {
+}
+.statistics-section {
+}
+.statistics-header {
+}
+.statistics-text {
+}
+.advanced-box-wrapper {
+}
+.advanced-box {
+}
+.advanced-box-img {
+}
+.advanced-box-heading {
+}
+.advanced-box-text {
+}
+.cta-section {
+}
+.cta-header {
+}
+.cta-btn {
+}
+.footer-section {
+}
+.footer-section-wrapper {
+}
+.footer-links {
+}
+.footer-link {
+}
+.footer-socials {
+}
+.footer-media {
+}
+.footer-extras {
+}
+.footer-ul {
+}
+.footer-list {
+}
+.footer-list-link {
 }
